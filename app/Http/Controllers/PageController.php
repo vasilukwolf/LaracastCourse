@@ -9,7 +9,10 @@ use App\Http\Requests;
 class PageController extends Controller
 {
     public function about(){
-    	$name = "Vasiluk Dmitrij";
-    	return view('about.about')->with('name',$name);
+
+        return view('about.about')->with([
+        	'firstname'=>'Dmitrij',
+        	'lastname'=>' Vasiluk']
+        	);
     }
 }
