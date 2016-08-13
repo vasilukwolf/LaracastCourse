@@ -7,3 +7,9 @@
         </p>
         </body>
 @stop
+
+@section('footer')
+<script type="text/javascript">alert('Footes script')</script>
+@stop
+
+
