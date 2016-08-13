@@ -15,4 +15,8 @@ class PageController extends Controller
         	'lastname'=>' Vasiluk']
         	);
     }
+
+    public function contact(){
+		return view('contact');
+    	}
 }

@@ -9,7 +9,8 @@
         </head>
         <body>
         <div class="content">
-            @yield('content');
+            @yield('content')
         </div>
+        @yield('footer')
         </body>
 </html>
