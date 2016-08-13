@@ -8,7 +8,6 @@
         <title>Laravel</title>
         </head>
         <body>
-        <h1>APP</h1>
         <div class="content">
             @yield('content');
         </div>
