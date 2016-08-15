@@ -10,7 +10,7 @@ class CardsController extends Controller
 {
     public function index(){
 
-    	return view('cards');
+    	return view('cards.index');
 
     }
 }
