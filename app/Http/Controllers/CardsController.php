@@ -8,5 +8,9 @@ use App\Http\Requests;
 
 class CardsController extends Controller
 {
-    //
+    public function index(){
+
+    	return view('cards');
+
+    }
 }
